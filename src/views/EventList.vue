@@ -1,8 +1,7 @@
 <template>
     <div>
         <h1>Events Listing</h1>
-        <EventCard/>
-        <BaseIcon/>
+        <EventCard v-for="event in events" :key="event.id" :event="event"/> <!-- we need to iterate each of the events whiwh get returned from the API -->
     </div>
 </template>
 
@@ -14,11 +13,16 @@
       components: {
         EventCard
       },
+      data() {
+          return {
+              events: []
+          }
+      },
       created() {
         axios
           .get('http://localhost:3000/events')  // Does a get request
           .then(response => {
-            console.log(response.data) // For now, logs out the response
+            this.events = response.data // this.events logged to response.data
           })
           .catch(error => {
             console.log('There was an error:', error.response) // Logs out the error

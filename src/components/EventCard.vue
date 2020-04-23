@@ -17,13 +17,13 @@
                     title: 'Beach Cleanup',
                     date: 'Tues Aug 19, 2018',
                     time: '6:00',
-                    attendeed: [
+                    attendees: [
                         { id: 'abc123', name: 'Vincent GUEGAN'},
                         { id: 'def456', name: 'Julien GUEGAN'},
                     ]
                 }
             }
-        },
+        }
     }
 </script>
 

@@ -71,6 +71,60 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 477853,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent GUEGAN"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent GUEGAN"
+      },
+      "title": "test",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 429297,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent GUEGAN"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent GUEGAN"
+      },
+      "title": "Working?",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 781256,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent GUEGAN"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent GUEGAN"
+      },
+      "title": "Panting Trees",
+      "description": "We're going to plant trees",
+      "location": "The forest",
+      "date": "2020-04-29T14:18:00.000Z",
+      "time": "21:00",
+      "attendees": []
     }
   ]
 }

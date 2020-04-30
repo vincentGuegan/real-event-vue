@@ -5,11 +5,7 @@
 </template>
 
 <script>
-<<<<<<< HEAD
 import { mapActions } from 'vuex'
-=======
-import {mapActions } from 'vuex'
->>>>>>> 1e6bd546e4fcf782d09b61488f8d6df37c1101be
 
     export default {
         props: {

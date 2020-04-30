@@ -231,6 +231,78 @@
       "date": "",
       "time": "5:00",
       "attendees": []
+    },
+    {
+      "id": 925443,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "Test",
+      "description": "SUCCESS",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 943072,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "SUCCESS",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 772116,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "WELL DONE",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 654998,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "SUPER",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }

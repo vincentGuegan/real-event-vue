@@ -71,9 +71,7 @@ import Datepicker from 'vuejs-datepicker'
                     })
                     this.event = this.createFreshEventObject()
                 })
-                .catch(() => {
-                    console.log('There was a problem creating your event')
-                })
+                .catch(() => {})
             },
             createFreshEventObject() {
                 const user = this.$store.state.user.user

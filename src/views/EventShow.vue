@@ -22,22 +22,14 @@
 </template>
     
 <script>
-import { mapState } from 'vuex'
-import NProgress from 'nprogress'
-import store from '@/store/index'
 
 export default {
-    props: ['id'],
-    beforeRouteEnter(routeTo, routeFrom, next) { // We write down our beforeRouterEnter hook with its 3 parameters
-      NProgress.start() // We start the progress bar before navigating to the component
-      store.dispatch('event/fetchEvent', routeTo.params.id).then(() => { // We call the fetchEvent action by importing vuex Store, we send in the id we want to fetch and then we call then() which is the callback to execute when the Promise is resolved.
-        NProgress.done() // When the API returns, we want to finish the progress bar
-        next() // We call next() to continue navigating to the component
-      })
+    props: {
+      event: {
+        type: Object,
+        required: true
+      }
     },
-    computed: mapState({
-      event: state => state.event.event
-    })
 }
 </script>
     

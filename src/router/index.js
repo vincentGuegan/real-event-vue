@@ -28,6 +28,7 @@ const router = new Router({
           routeTo.params.event = event
           next() // We call next() to continue navigating to the component
         })
+        .catch(() => next({ name: '404', params: { resource: 'event' } })) // On error redirect to 404 with name of resource missing
       }
     },
     {
@@ -38,11 +39,12 @@ const router = new Router({
     {
       path: "/404",
       name: "404",
-      component: NotFound
+      component: NotFound,
+      props: true // send in resource param as prop
     },
     {
       path: "*", // will catch all navigation that doesn't match
-      redirect: { name: "404" }
+      redirect: { name: "404", params: { resource: "page" } } // "page is here the specified missing resource"
     }
   ]
 })

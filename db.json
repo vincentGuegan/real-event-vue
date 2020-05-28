@@ -339,6 +339,42 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 131557,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "Puppy Wild",
+      "description": "pup",
+      "location": "Paris",
+      "date": "2020-05-01T13:19:00.000Z",
+      "time": "5:00",
+      "attendees": []
+    },
+    {
+      "id": 927806,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }

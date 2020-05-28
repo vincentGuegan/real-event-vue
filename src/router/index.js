@@ -6,6 +6,7 @@ import EventShow from "../views/EventShow.vue";
 import NProgress from "nprogress";
 import store from "@/store/index";
 import NotFound from "../views/NotFound.vue";
+import NetworkIssue from "../views/NetworkIssue.vue";
 
 Vue.use(Router);
 
@@ -28,7 +29,13 @@ const router = new Router({
           routeTo.params.event = event
           next() // We call next() to continue navigating to the component
         })
-        .catch(() => next({ name: '404', params: { resource: 'event' } })) // On error redirect to 404 with name of resource missing
+        .catch(error => {
+          if (error.response && error.response.status == 404) { // Only if response status is 404, show the 404
+            next({ name: '404', params: { resource: 'event' } }) // On error redirect to 404 with name of resource missing
+          } else { // Otherwise lets redirect to the error issue component
+            next({ name: "network-issue" })
+          }
+        })
       }
     },
     {
@@ -40,6 +47,12 @@ const router = new Router({
       path: "/404",
       name: "404",
       component: NotFound,
+      props: true // send in resource param as prop
+    },
+    {
+      path: "/network-issue",
+      name: "network-issue",
+      component: NetworkIssue,
       props: true // send in resource param as prop
     },
     {

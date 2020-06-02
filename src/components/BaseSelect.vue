@@ -1,7 +1,7 @@
 <template>
     <div>
         <label v-if="label">{{ label }}</label>
-        <select :value="value" @input="updateValue" v-bind="$attrs"> <!-- When the input event happens, it will trigger the updateValue method which sounds up the payload -->
+        <select :value="value" @input="updateValue" v-bind="$attrs" v-on="$listeners"> <!-- When the input event happens, it will trigger the updateValue method which sounds up the payload; to add the v-on="$listeners" to our BaseSelect component’s select element so it can inherit the blur event listener from the parent scope -->
             <option
                 v-for="option in options"
                 :value="option"

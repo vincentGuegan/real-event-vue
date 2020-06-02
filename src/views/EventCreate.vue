@@ -38,7 +38,7 @@ import NProgress from 'nprogress'
 
 export default {
   components: {
-      Datepicker,
+      Datepicker
   },
   data() {
       const times = []

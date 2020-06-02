@@ -375,6 +375,60 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 47316,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 51997,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 272457,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "test",
+      "description": "test",
+      "location": "reims",
+      "date": "2020-05-07T15:14:00.000Z",
+      "time": "5:00",
+      "attendees": []
     }
   ]
 }

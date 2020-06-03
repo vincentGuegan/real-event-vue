@@ -519,6 +519,24 @@
       "date": "2020-06-04T09:17:00.000Z",
       "time": "5:00",
       "attendees": []
+    },
+    {
+      "id": 2156222,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "sss",
+      "description": "ssss",
+      "location": "sssss",
+      "date": "2020-06-03T09:48:00.000Z",
+      "time": "3:00",
+      "attendees": []
     }
   ]
 }

@@ -429,6 +429,96 @@
       "date": "2020-05-07T15:14:00.000Z",
       "time": "5:00",
       "attendees": []
+    },
+    {
+      "id": 927990,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "vincent",
+      "description": "description",
+      "location": "paris",
+      "date": "2020-06-04T13:22:00.000Z",
+      "time": "7:00",
+      "attendees": []
+    },
+    {
+      "id": 679047,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "test",
+      "description": "descr",
+      "location": "reims",
+      "date": "2020-06-05T14:16:00.000Z",
+      "time": "19:00",
+      "attendees": []
+    },
+    {
+      "id": 665592,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "vincent",
+      "description": "test",
+      "location": "clermont",
+      "date": "2020-06-10T07:35:00.000Z",
+      "time": "2:00",
+      "attendees": []
+    },
+    {
+      "id": 817651,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "test",
+      "description": "description",
+      "location": "perpignan",
+      "date": "2020-06-04T08:00:00.000Z",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 8624649,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "community",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "Robert",
+      "description": "tototototootot",
+      "location": "Bordeaux",
+      "date": "2020-06-04T09:17:00.000Z",
+      "time": "5:00",
+      "attendees": []
     }
   ]
 }

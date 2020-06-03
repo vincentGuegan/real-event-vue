@@ -537,6 +537,24 @@
       "date": "2020-06-03T09:48:00.000Z",
       "time": "3:00",
       "attendees": []
+    },
+    {
+      "id": 9163738,
+      "user": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Vincent"
+      },
+      "title": "Mixin",
+      "description": "Test Mixin",
+      "location": "Orléans",
+      "date": "2020-06-10T10:42:00.000Z",
+      "time": "19:00",
+      "attendees": []
     }
   ]
 }

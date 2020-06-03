@@ -1,24 +1,21 @@
 # real-event-vue
 
-## Project setup
+## To install dependencies:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### To run the server:
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### To get json-server, which we use for our mock database (Starting on API calls with Axios)
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm install -g json-server
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### To run the mock database
+```
+json-server --watch db.json
+```

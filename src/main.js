@@ -6,6 +6,7 @@ import upperFirst from "lodash/upperFirst";
 import camelCase from "lodash/camelCase";
 import "nprogress/nprogress.css";
 import Vuelidate from "vuelidate";
+import DateFilter from "./filters/date";
 
 const requireComponent = require.context(
   './components',
@@ -14,6 +15,7 @@ const requireComponent = require.context(
 )
 
 Vue.use(Vuelidate);
+Vue.filter('date', DateFilter)
 
 requireComponent.keys().forEach(fileName => {
   const componentConfig = requireComponent(fileName)
